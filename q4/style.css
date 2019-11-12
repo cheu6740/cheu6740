@@ -1,0 +1,354 @@
+* {
+    font-family: Muli;
+    box-sizing:border-box;
+    margin: 0;
+}
+.button{
+    border: 1px solid #DEB13E;
+    border-radius: 5px;
+    margin: 4px 0;
+    padding: 10px 20px;
+    display: inline-block;
+
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#nav{
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.4);
+    list-style-type: none;
+    z-index: 10;
+}
+.menu {
+    float: right;
+    height: 70px;
+    display: inline-block;
+}
+#logo{
+    float: left;
+    margin: 20px 0 0 50px;
+}
+#nav ul{
+    float: right;
+    margin: 0 50px 0 0;
+}
+#nav li{
+    display: inline;
+    padding-left: 40px;
+    font-size: 20px;
+}
+#nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 10px 0;
+
+}
+label {
+    float: right;
+    margin: 0 30px 0 0;
+    font-size: 26px;
+    display: none;
+    color: #ffffff;
+}
+#toggle{
+    display: none;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+
+    background-image: url(images/interface/homepage%20donuts.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#hero p{
+    max-width: 570px;
+    margin: auto
+}
+#hero h1{
+    font-size: 10vw;
+}
+#hero img{
+    display: block;
+    width: 250px;
+    margin:auto;
+    padding: 10px 0 20px 0;
+}
+
+.section{
+    padding: 100px 50px;
+    display: inline-block;
+}
+.section h2{
+    font-family: Rock Salt;
+    font-size: 40px;
+    font-weight: normal;
+}
+.section p{
+    font-size: 18px;
+    padding: 10px 0 25px 0;
+}
+
+.chalkboards{
+    background-color: #333333;
+    border: 3px solid #C17C37;
+    width: 25%;
+    padding: 20px;
+    float: left;
+    color: #ffffff;
+
+}
+.chalkboards img{
+    width: 75px;
+}
+#chalkboard1{
+    margin-left: 0;
+    float:left;
+}
+#chalkboard2{
+    margin: 0 12.5%;
+}
+#chalkboard3{
+    margin-right: 0;
+    float:right;
+}
+
+#footer{
+    width: 100%;
+    background-color: #333333;
+}
+
+#footer-top{
+    width: 100%;
+
+    background-image: url(images/interface/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+
+    padding: 50px;
+    display: inline-block;
+}
+#footer-top a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer-top a:hover{
+    text-decoration: underline;
+}
+#footer-contact{
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+}
+#footer-contact ul{
+    margin-left: 23px;
+}
+#footer-contact li{
+    padding-bottom: 10px;
+}
+#footer-hours{
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+}
+#footer-top h3{
+    padding-bottom: 10px;
+}
+#footer-top p{
+    padding-bottom: 10px;
+}
+#map{
+    width: 40%;
+    float: right;
+    height: 250px
+}
+
+#footer-bottom{
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 50px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+#footer-bottom a{
+    color: #ffffff;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+}
+#footer-bottom a:hover{
+    text-decoration: underline;
+}
+#footer-bottom p{
+    float: left;
+}
+#footer-bottom ul{
+    float: right;
+}
+#footer-bottom li{
+    float: left;
+    display: inline;
+    padding-left: 40px;
+    font-size: 20px;
+}
+hr{
+    width: 100%;
+    margin: 75px 0 25px 0;
+}
+#footer-social li{
+    padding-left: 20px;
+}
+
+.banner {
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+    padding-top: 120px;
+    box-sizing:border-box;
+    color: #ffffff;
+    float: left;
+
+}
+.banner h1{
+    font-family: Rock Salt;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+.page-intro{
+    clear: left;
+    text-align: center;
+    line-height: 160%;
+
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 0;
+}
+.page-intro a{
+    color: #000000;
+}
+.wood-table{
+    width: 100vw;
+    background-image: url(images/interface/wood-texture.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+}
+.menu-content{
+    background-color: #ffffff;
+}
+#menu-nav{
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.4);
+    font-size: 25px;
+}
+
+.menu-content {
+    line-height: 160%;
+    padding: 50px;
+    display: inline-block;
+}
+.menu-content h4{
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    width: 67%;
+    float: right;
+}
+.menu-content p{
+    font-size: 15px;
+    color: #333333;
+
+    padding-bottom: 25px;
+
+    width: 67%;
+    float: right;
+
+}
+.menu-content h3{
+    font-size: 20px;
+    color: #333333;
+    font-weight: normal;
+    text-align: left;
+
+    padding-bottom: 25px;
+    width: 67%;
+    float: right;
+}
+.menu-content ul{
+    font-size: 15px;
+    color: #333333;
+
+    padding-left: 28px;
+    padding-bottom: 25px;
+
+    width: 67%;
+    float: right;
+}
+.menu-content hr{
+    width: 67%;
+    float: right;
+    margin: 0 0 20px 0;
+    border: 1px solid #EDB530;
+
+}
+.menu-content i{
+    text-align: right;
+    float: right;
+    padding: 5px 15px 0 0;
+    color: #5F5F5F;
+}
+.food-image{
+    background-image: url(images/food/oreo.png);
+    position: absolute;
+    left: -0;
+    width: 33%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+}
+.food-image:hover {
+    background-image: url(images/food/maple.png);
+
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+}
+
+.menu-content img{
+    stroke: #000;
+    stroke-width: 2;
+    margin: 0 0 20px 0;
+    margin-left: 33%;
+    clear: right;
+    display: block;
+}
